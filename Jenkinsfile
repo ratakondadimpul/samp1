@@ -1,7 +1,7 @@
 pipeline{
     agent any
     stages{
-        stage('source code'){
+        steps('source code'){
             bat 'dir'
         }
     }
