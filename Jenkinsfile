@@ -3,7 +3,7 @@ pipeline{
     stages{
         stage('source code'){
             steps{
-                bat 'dir'
+                sh 'pwd'
             }
         }
     }
